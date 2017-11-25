@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F204C081DB32D1A008DC764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F204C071DB32D1A008DC764 /* main.m */; };
+		4F204C0B1DB32D1A008DC764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F204C0A1DB32D1A008DC764 /* AppDelegate.m */; };
+		4F204C0E1DB32D1A008DC764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F204C0D1DB32D1A008DC764 /* ViewController.m */; };
+		4F204C111DB32D1A008DC764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F204C0F1DB32D1A008DC764 /* Main.storyboard */; };
+		4F204C131DB32D1A008DC764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F204C121DB32D1A008DC764 /* Assets.xcassets */; };
+		4F204C161DB32D1A008DC764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F204C141DB32D1A008DC764 /* LaunchScreen.storyboard */; };
+		4F204C1E1DB32DFD008DC764 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F204C1D1DB32DFD008DC764 /* list.json */; };
+		4F39BF351DB32EE9004362CF /* ESPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39BF341DB32EE9004362CF /* ESPictureModel.m */; };
+		4F39BF381DB330BA004362CF /* ESCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39BF371DB330B9004362CF /* ESCellNode.m */; };
+		4F39BF3B1DB332A0004362CF /* ESCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39BF3A1DB332A0004362CF /* ESCellLayout.m */; };
+		4F39BF3F1DB36E07004362CF /* ESPictureBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39BF3E1DB36E07004362CF /* ESPictureBrowser.m */; };
+		4F39BF421DB36E52004362CF /* ESPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F39BF411DB36E52004362CF /* ESPictureView.m */; };
+		4F9E1F8E1DB633A60040FB5C /* ESPictureProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E1F8D1DB633A60040FB5C /* ESPictureProgressView.m */; };
+		9EAFA92710C6273E0F311114 /* libPods-ESPictureBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B68C6288AF9166C306A094F7 /* libPods-ESPictureBrowserDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F204C031DB32D1A008DC764 /* ESPictureBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPictureBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F204C071DB32D1A008DC764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F204C091DB32D1A008DC764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F204C0A1DB32D1A008DC764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F204C0C1DB32D1A008DC764 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F204C0D1DB32D1A008DC764 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F204C101DB32D1A008DC764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F204C121DB32D1A008DC764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F204C151DB32D1A008DC764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F204C171DB32D1A008DC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F204C1D1DB32DFD008DC764 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		4F39BF331DB32EE9004362CF /* ESPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPictureModel.h; sourceTree = "<group>"; };
+		4F39BF341DB32EE9004362CF /* ESPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPictureModel.m; sourceTree = "<group>"; };
+		4F39BF361DB330B9004362CF /* ESCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCellNode.h; sourceTree = "<group>"; };
+		4F39BF371DB330B9004362CF /* ESCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCellNode.m; sourceTree = "<group>"; };
+		4F39BF391DB332A0004362CF /* ESCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCellLayout.h; sourceTree = "<group>"; };
+		4F39BF3A1DB332A0004362CF /* ESCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCellLayout.m; sourceTree = "<group>"; };
+		4F39BF3D1DB36E07004362CF /* ESPictureBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPictureBrowser.h; sourceTree = "<group>"; };
+		4F39BF3E1DB36E07004362CF /* ESPictureBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPictureBrowser.m; sourceTree = "<group>"; };
+		4F39BF401DB36E52004362CF /* ESPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPictureView.h; sourceTree = "<group>"; };
+		4F39BF411DB36E52004362CF /* ESPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPictureView.m; sourceTree = "<group>"; };
+		4F9E1F8C1DB633A60040FB5C /* ESPictureProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPictureProgressView.h; sourceTree = "<group>"; };
+		4F9E1F8D1DB633A60040FB5C /* ESPictureProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPictureProgressView.m; sourceTree = "<group>"; };
+		800A2B6F20A0A875DDA59145 /* Pods-ESPictureBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPictureBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESPictureBrowserDemo/Pods-ESPictureBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B68C6288AF9166C306A094F7 /* libPods-ESPictureBrowserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESPictureBrowserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD20E75C06E5CEFC879DDBB1 /* Pods-ESPictureBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPictureBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESPictureBrowserDemo/Pods-ESPictureBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F204C001DB32D1A008DC764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAFA92710C6273E0F311114 /* libPods-ESPictureBrowserDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F204BFA1DB32D1A008DC764 = {
+			isa = PBXGroup;
+			children = (
+				4F204C051DB32D1A008DC764 /* ESPictureBrowserDemo */,
+				4F204C041DB32D1A008DC764 /* Products */,
+				AC585C8BABE46E09483FD52D /* Pods */,
+				AC4D5F172DD5CE6F714C9549 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F204C041DB32D1A008DC764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F204C031DB32D1A008DC764 /* ESPictureBrowserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F204C051DB32D1A008DC764 /* ESPictureBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4F39BF3C1DB36DE3004362CF /* ESPictureBrowser */,
+				4F204C091DB32D1A008DC764 /* AppDelegate.h */,
+				4F204C0A1DB32D1A008DC764 /* AppDelegate.m */,
+				4F204C0C1DB32D1A008DC764 /* ViewController.h */,
+				4F204C0D1DB32D1A008DC764 /* ViewController.m */,
+				4F39BF331DB32EE9004362CF /* ESPictureModel.h */,
+				4F39BF341DB32EE9004362CF /* ESPictureModel.m */,
+				4F39BF361DB330B9004362CF /* ESCellNode.h */,
+				4F39BF371DB330B9004362CF /* ESCellNode.m */,
+				4F39BF391DB332A0004362CF /* ESCellLayout.h */,
+				4F39BF3A1DB332A0004362CF /* ESCellLayout.m */,
+				4F204C0F1DB32D1A008DC764 /* Main.storyboard */,
+				4F204C121DB32D1A008DC764 /* Assets.xcassets */,
+				4F204C141DB32D1A008DC764 /* LaunchScreen.storyboard */,
+				4F204C171DB32D1A008DC764 /* Info.plist */,
+				4F204C1D1DB32DFD008DC764 /* list.json */,
+				4F204C061DB32D1A008DC764 /* Supporting Files */,
+			);
+			path = ESPictureBrowserDemo;
+			sourceTree = "<group>";
+		};
+		4F204C061DB32D1A008DC764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F204C071DB32D1A008DC764 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F39BF3C1DB36DE3004362CF /* ESPictureBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				4F39BF3D1DB36E07004362CF /* ESPictureBrowser.h */,
+				4F39BF3E1DB36E07004362CF /* ESPictureBrowser.m */,
+				4F39BF401DB36E52004362CF /* ESPictureView.h */,
+				4F39BF411DB36E52004362CF /* ESPictureView.m */,
+				4F9E1F8C1DB633A60040FB5C /* ESPictureProgressView.h */,
+				4F9E1F8D1DB633A60040FB5C /* ESPictureProgressView.m */,
+			);
+			path = ESPictureBrowser;
+			sourceTree = "<group>";
+		};
+		AC4D5F172DD5CE6F714C9549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68C6288AF9166C306A094F7 /* libPods-ESPictureBrowserDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC585C8BABE46E09483FD52D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				800A2B6F20A0A875DDA59145 /* Pods-ESPictureBrowserDemo.debug.xcconfig */,
+				CD20E75C06E5CEFC879DDBB1 /* Pods-ESPictureBrowserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F204C021DB32D1A008DC764 /* ESPictureBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F204C1A1DB32D1A008DC764 /* Build configuration list for PBXNativeTarget "ESPictureBrowserDemo" */;
+			buildPhases = (
+				6CE26BA2BF99BAB24104A5E7 /* [CP] Check Pods Manifest.lock */,
+				4F204BFF1DB32D1A008DC764 /* Sources */,
+				4F204C001DB32D1A008DC764 /* Frameworks */,
+				4F204C011DB32D1A008DC764 /* Resources */,
+				CA33B7FC88DAA61B5F461B2C /* [CP] Embed Pods Frameworks */,
+				ECAED5920F61FCE9E22AFE72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPictureBrowserDemo;
+			productName = ESPictureBrowserDemo;
+			productReference = 4F204C031DB32D1A008DC764 /* ESPictureBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F204BFB1DB32D1A008DC764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = EnjoySR;
+				TargetAttributes = {
+					4F204C021DB32D1A008DC764 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YVL7699HA5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F204BFE1DB32D1A008DC764 /* Build configuration list for PBXProject "ESPictureBrowserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F204BFA1DB32D1A008DC764;
+			productRefGroup = 4F204C041DB32D1A008DC764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F204C021DB32D1A008DC764 /* ESPictureBrowserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F204C011DB32D1A008DC764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F204C161DB32D1A008DC764 /* LaunchScreen.storyboard in Resources */,
+				4F204C1E1DB32DFD008DC764 /* list.json in Resources */,
+				4F204C131DB32D1A008DC764 /* Assets.xcassets in Resources */,
+				4F204C111DB32D1A008DC764 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CE26BA2BF99BAB24104A5E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESPictureBrowserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA33B7FC88DAA61B5F461B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESPictureBrowserDemo/Pods-ESPictureBrowserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAED5920F61FCE9E22AFE72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESPictureBrowserDemo/Pods-ESPictureBrowserDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F204BFF1DB32D1A008DC764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F39BF351DB32EE9004362CF /* ESPictureModel.m in Sources */,
+				4F39BF421DB36E52004362CF /* ESPictureView.m in Sources */,
+				4F39BF3B1DB332A0004362CF /* ESCellLayout.m in Sources */,
+				4F9E1F8E1DB633A60040FB5C /* ESPictureProgressView.m in Sources */,
+				4F39BF3F1DB36E07004362CF /* ESPictureBrowser.m in Sources */,
+				4F39BF381DB330BA004362CF /* ESCellNode.m in Sources */,
+				4F204C0E1DB32D1A008DC764 /* ViewController.m in Sources */,
+				4F204C0B1DB32D1A008DC764 /* AppDelegate.m in Sources */,
+				4F204C081DB32D1A008DC764 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F204C0F1DB32D1A008DC764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F204C101DB32D1A008DC764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F204C141DB32D1A008DC764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F204C151DB32D1A008DC764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F204C181DB32D1A008DC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F204C191DB32D1A008DC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F204C1B1DB32D1A008DC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800A2B6F20A0A875DDA59145 /* Pods-ESPictureBrowserDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVL7699HA5;
+				INFOPLIST_FILE = ESPictureBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ESPictureBrowser-SDWebImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F204C1C1DB32D1A008DC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD20E75C06E5CEFC879DDBB1 /* Pods-ESPictureBrowserDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVL7699HA5;
+				INFOPLIST_FILE = ESPictureBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ESPictureBrowser-SDWebImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F204BFE1DB32D1A008DC764 /* Build configuration list for PBXProject "ESPictureBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F204C181DB32D1A008DC764 /* Debug */,
+				4F204C191DB32D1A008DC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F204C1A1DB32D1A008DC764 /* Build configuration list for PBXNativeTarget "ESPictureBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F204C1B1DB32D1A008DC764 /* Debug */,
+				4F204C1C1DB32D1A008DC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F204BFB1DB32D1A008DC764 /* Project object */;
+}

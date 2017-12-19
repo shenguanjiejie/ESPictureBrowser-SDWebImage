@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/shenguanjiejie/ESPictureBrowser-SDWebImage.git", :tag => s.version }
   s.source_files  = "ESPictureBrowserDemo/ESPictureBrowserDemo/ESPictureBrowser/*.{h,m}"
   s.requires_arc = true
-  s.dependency "SDWebImage"
+  s.dependency "SDWebImage",'~>4.0'
 
 end

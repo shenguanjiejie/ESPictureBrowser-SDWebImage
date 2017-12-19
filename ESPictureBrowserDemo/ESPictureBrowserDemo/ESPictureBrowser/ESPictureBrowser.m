@@ -24,6 +24,7 @@
 #import "ESPictureBrowser.h"
 #import "ESPictureView.h"
 #import "UIImageView+WebCache.h"
+#import "UIView+WebCache.h"
 
 @interface ESPictureBrowser()<UIScrollViewDelegate, ESPictureViewDelegate>
 
@@ -151,11 +152,11 @@
     ESPictureView *pictureView = [[_pictureViews filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"index == %d", _currentPage]] firstObject];
     // 取消所有的下载
     for (ESPictureView *pictureView in _pictureViews) {
-        [pictureView.imageView sd_cancelCurrentAnimationImagesLoad];
+        [pictureView.imageView sd_cancelCurrentImageLoad];
     }
     
     for (ESPictureView *pictureView in _readyToUsePictureViews) {
-        [pictureView.imageView sd_cancelCurrentAnimationImagesLoad];
+        [pictureView.imageView sd_cancelCurrentImageLoad];
     }
     
     // 执行关闭动画

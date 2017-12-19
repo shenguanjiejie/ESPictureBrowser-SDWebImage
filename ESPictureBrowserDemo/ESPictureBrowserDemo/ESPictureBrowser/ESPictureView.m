@@ -24,6 +24,7 @@
 #import "ESPictureView.h"
 #import "ESPictureProgressView.h"
 #import "UIImageView+WebCache.h"
+#import "UIView+WebCache.h"
 
 @interface ESPictureView()<UIScrollViewDelegate>
 
@@ -143,7 +144,7 @@
 
 - (void)setUrlString:(NSString *)urlString {
     _urlString = urlString;
-    [self.imageView sd_cancelCurrentAnimationImagesLoad];
+    [self.imageView sd_cancelCurrentImageLoad];
     self.progressView.progress = 0.01;
     // 如果没有在执行动画，那么就显示出来
     if (self.isShowAnim == false) {

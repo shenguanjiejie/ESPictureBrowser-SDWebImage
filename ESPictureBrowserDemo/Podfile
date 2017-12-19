@@ -9,6 +9,6 @@ target 'ESPictureBrowserDemo' do
   # Pods for ESPictureBrowserDemo
 
 pod 'AsyncDisplayKit', '~> 1.9.90'
-pod 'SDWebImage','~>3.8'
+pod 'SDWebImage'
 
 end
